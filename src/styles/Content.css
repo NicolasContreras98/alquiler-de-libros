@@ -1,0 +1,7 @@
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 75vh;
+  margin-left: .5%;
+  margin-top: 0;
+}

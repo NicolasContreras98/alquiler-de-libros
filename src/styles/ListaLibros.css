@@ -1,0 +1,30 @@
+.scrollable-table {
+  /* min-height: 300px; */
+  margin-top: 3%;
+  overflow-y: auto; /* Agrega scroll vertical */
+  scrollbar-width: thin; /* Ancho del scroll (puedes ajustarlo según tus preferencias) */
+  scrollbar-color: #444 #333; /* Color del scroll (puedes ajustarlo según tu tema oscuro) */
+}
+
+/* Estilos específicos para WebKit (Safari) */
+.scrollable-table::-webkit-scrollbar {
+  width: 10px; /* Ancho del scroll (puedes ajustarlo según tus preferencias) */
+}
+
+.scrollable-table::-webkit-scrollbar-thumb {
+  background-color: #444; /* Color del scroll (puedes ajustarlo según tu tema oscuro) */
+}
+
+.scrollable-table::-webkit-scrollbar-thumb:hover {
+  background-color: #333; /* Color del scroll al pasar el mouse (puedes ajustarlo según tu tema oscuro) */
+}
+
+.table-header {
+  color: violet !important;
+  cursor: pointer !important;
+}
+
+.checkbox {
+  width: 0px;
+  height: 5px;
+}

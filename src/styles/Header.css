@@ -1,0 +1,17 @@
+.titulo-header:hover {
+    color: violet;
+    cursor: pointer;
+}
+
+.profile-header {
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.usuario {
+    margin-top: 12% !important;
+    margin-right: 8% !important;
+}

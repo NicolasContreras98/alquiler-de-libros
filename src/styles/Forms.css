@@ -1,0 +1,40 @@
+.form-container {
+    border: 1px solid black;
+    padding: 40px ;
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    margin-top: 3%;
+    box-shadow: 10px 10px 2px 2px #1f1f1f;
+}
+
+.form{
+    display: grid;
+    justify-items: center;
+}
+
+.logo-login {
+    border-radius: 40px;
+    width: 120px;
+    /* margin-left: 35%; */
+}
+
+.input {
+    margin-top: 3% !important;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.botones-login {
+    display: flex;
+}
+
+.boton-login {
+    width: 200px !important;
+    margin: 5% !important;
+}
+
+.label-rol {
+    margin: 3% ;
+}

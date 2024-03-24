@@ -1,0 +1,11 @@
+.lista {
+  border: 1px solid violet;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.CRUD {
+  margin-top: 8px;
+  width: 30%;
+  height: 200px;
+}

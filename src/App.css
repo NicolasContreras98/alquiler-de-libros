@@ -1,0 +1,32 @@
+body {
+  background-color: #222;
+  color: white;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu menu"
+    "content content"
+    "footer footer";
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  min-height: 80vh;
+} 
+
+.header {
+  grid-area: header;
+}
+.menu {
+  grid-area: menu;
+}
+.lista {
+  grid-area: contentLista;
+}
+.CRUD {
+  grid-area: contentCRUD;
+}
+.footer {
+  grid-area: footer;
+}
